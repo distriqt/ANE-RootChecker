@@ -1,0 +1,11 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+	<copyright>2019 // distriqt</copyright>
+	<sdkVersion>9.0</sdkVersion>
+	<linkerOptions>
+		<option>-ios_version_min 9.0</option>
+		<option>-w</option>
+	</linkerOptions>
+	<packagedDependencies>
+		
+	</packagedDependencies>
+</platform>

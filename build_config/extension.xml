@@ -1,0 +1,44 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+	<id>com.distriqt.RootChecker</id>
+	<versionNumber>@VERSION@</versionNumber>
+	<platforms>
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.rootchecker.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.rootchecker.RootCheckerExtension</initializer>
+				<finalizer>com.distriqt.extension.rootchecker.RootCheckerExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-ARM64">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.rootchecker.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.rootchecker.RootCheckerExtension</initializer>
+				<finalizer>com.distriqt.extension.rootchecker.RootCheckerExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x86">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.rootchecker.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.rootchecker.RootCheckerExtension</initializer>
+				<finalizer>com.distriqt.extension.rootchecker.RootCheckerExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libRootChecker.a</nativeLibrary>
+				<initializer>RootCheckerExtInitializer</initializer>
+				<finalizer>RootCheckerExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-x86">
+			<applicationDeployment>
+				<nativeLibrary>libRootChecker.a</nativeLibrary>
+				<initializer>RootCheckerExtInitializer</initializer>
+				<finalizer>RootCheckerExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="default"> 
+			<applicationDeployment /> 
+		</platform>
+	</platforms>
+</extension>
