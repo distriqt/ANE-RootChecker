@@ -16,6 +16,7 @@
 @synthesize extContext;
 
 
+// Reference : https://medium.com/@pinmadhon/how-to-check-your-app-is-installed-on-a-jailbroken-device-67fa0170cf56
 -(Boolean) isRooted
 {
 #if !(TARGET_IPHONE_SIMULATOR)

@@ -54,6 +54,8 @@ public class RootCheckerController extends ActivityStateListener
 
 
 
+	// Reference: https://medium.com/@scottyab/detecting-root-on-android-97803474f694
+	// Source: https://github.com/scottyab/rootbeer
 	public boolean isRooted()
 	{
 		try
