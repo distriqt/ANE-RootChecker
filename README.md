@@ -15,7 +15,8 @@ gives you the ability to check whether the current device has been "rooted".
 
 ## Documentation
 
-Latest documentation can be found in the [wiki](https://github.com/distriqt/ANE-RootChecker/wiki)
+The [documentation site](https://docs.airnativeextensions.com/docs/rootchecker/) forms the best source of detailed documentation for the extension along with the [asdocs](https://docs.airnativeextensions.com/asdocs/rootchecker/). 
+
 
 Quick Example: 
 

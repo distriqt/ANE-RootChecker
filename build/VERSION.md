@@ -1,1 +1,1 @@
-| com.distriqt.RootChecker | 1.0.009 |  |  |
+| com.distriqt.RootChecker | 1.0.011 |  |  |
