@@ -1,11 +1,5 @@
 
-To check whether the device has been "rooted" or jail broken you check the `isRooted` flag.
-
-Calling this will perform several native tests in order to guess whether the device is rooted. It is not a complete check as once a device has root access they can modify the device as they see fit to avoid detection.
-
-```as3
-if (RootChecker.instance.isRooted)
-{
-    // device has been rooted / jail broken 
-}
-```
+This wiki has been deprecated. All content is now available in our new [documentation site](https://docs.airnativeextensions.com).
+            
+This page can be found here: https://docs.airnativeextensions.com/docs/rootchecker/
+                
