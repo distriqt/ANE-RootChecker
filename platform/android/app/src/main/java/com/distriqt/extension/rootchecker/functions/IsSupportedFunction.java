@@ -8,10 +8,10 @@
  *                           \/ 
  * http://distriqt.com
  *
- * @brief  		Is Supported function implementation for this ANE
- * @author 		Michael Archbold
- * @created		Jan 19, 2012
- * @copyright	http://distriqt.com/copyright/license.txt
+ * @brief Is Supported function implementation for this ANE
+ * @author Michael Archbold (https://github.com/marchbold)
+ * @created Jan 19, 2012
+ * @copyright http://distriqt.com/copyright/license.txt
  *
  */
 package com.distriqt.extension.rootchecker.functions;
@@ -23,11 +23,11 @@ import com.adobe.fre.FREFunction;
 import com.adobe.fre.FREObject;
 import com.distriqt.extension.rootchecker.utils.Errors;
 
-public class IsSupportedFunction implements FREFunction 
+public class IsSupportedFunction implements FREFunction
 {
 
 	@Override
-	public FREObject call( FREContext context, FREObject[] args ) 
+	public FREObject call( FREContext context, FREObject[] args )
 	{
 		FREObject result = null;
 		try

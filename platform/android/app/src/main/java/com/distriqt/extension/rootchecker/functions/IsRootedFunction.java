@@ -9,7 +9,7 @@
  * http://distriqt.com
  *
  * @brief
- * @author marchbold
+ * @author Michael Archbold (https://github.com/marchbold)
  * @created 08/11/2019
  * @copyright http://distriqt.com/copyright/license.txt
  */
@@ -30,7 +30,7 @@ public class IsRootedFunction implements FREFunction
 		FREObject result = null;
 		try
 		{
-			RootCheckerContext ctx = (RootCheckerContext)freContext;
+			RootCheckerContext ctx = (RootCheckerContext) freContext;
 			result = FREObject.newObject( ctx.controller().isRooted() );
 		}
 		catch (Exception e)

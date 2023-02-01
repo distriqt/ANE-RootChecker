@@ -8,10 +8,10 @@
  *                           \/ 
  * http://distriqt.com
  *
- * @brief  		Main Context for an ActionScript Native Extension
- * @author 		Michael Archbold
- * @created		Jan 19, 2012
- * @copyright	http://distriqt.com/copyright/license.txt
+ * @brief Main Context for an ActionScript Native Extension
+ * @author Michael Archbold (https://github.com/marchbold)
+ * @created Jan 19, 2012
+ * @copyright http://distriqt.com/copyright/license.txt
  *
  */
 package com.distriqt.extension.rootchecker;
@@ -36,8 +36,8 @@ import java.util.Map;
 
 public class RootCheckerContext extends FREContext implements IExtensionContext, ActivityResultCallback, StateChangeCallback
 {
-	public static final String TAG = RootCheckerContext.class.getSimpleName();
-	public static final String VERSION = "1.0";
+	public static final String TAG            = RootCheckerContext.class.getSimpleName();
+	public static final String VERSION        = "1.0";
 	public static final String IMPLEMENTATION = "Android";
 
 
@@ -48,7 +48,6 @@ public class RootCheckerContext extends FREContext implements IExtensionContext,
 	private AndroidActivityWrapper _aaw;
 
 	private RootCheckerController _controller = null;
-
 
 
 	////////////////////////////////////////////////////////////
@@ -64,7 +63,7 @@ public class RootCheckerContext extends FREContext implements IExtensionContext,
 
 
 	@Override
-	public void dispose() 
+	public void dispose()
 	{
 		if (_aaw != null)
 		{
@@ -79,21 +78,20 @@ public class RootCheckerContext extends FREContext implements IExtensionContext,
 		}
 	}
 
-	
+
 	@Override
-	public Map<String, FREFunction> getFunctions() 
+	public Map<String, FREFunction> getFunctions()
 	{
 		Map<String, FREFunction> functionMap = new HashMap<String, FREFunction>();
-		
-		functionMap.put( "isSupported", 	new IsSupportedFunction() );
-		functionMap.put( "version",   		new VersionFunction() );
-		functionMap.put( "implementation", 	new ImplementationFunction() );
 
-		functionMap.put( "isRooted", 		new IsRootedFunction() );
+		functionMap.put( "isSupported", new IsSupportedFunction() );
+		functionMap.put( "version", new VersionFunction() );
+		functionMap.put( "implementation", new ImplementationFunction() );
+
+		functionMap.put( "isRooted", new IsRootedFunction() );
 
 		return functionMap;
 	}
-
 
 
 	//
@@ -185,5 +183,5 @@ public class RootCheckerContext extends FREContext implements IExtensionContext,
 		{
 		}
 	}
-	
+
 }

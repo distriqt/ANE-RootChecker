@@ -9,7 +9,7 @@
  * http://distriqt.com
  *
  * @brief  		RootChecker Native Extension
- * @author 		Michael Archbold
+ * @author 		Michael Archbold (https://github.com/marchbold)
  * @created		Jan 19, 2012
  * @copyright	http://distriqt.com/copyright/license.txt
  */

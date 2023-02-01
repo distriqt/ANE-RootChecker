@@ -2,4 +2,4 @@
 
 | Extension | Version | Android Lib | iOS Lib |
 | --- | --- | --- | --- |
-| com.distriqt.RootChecker | 1.0.13 |  |  |
+| com.distriqt.RootChecker | 1.1.0 |  |  |

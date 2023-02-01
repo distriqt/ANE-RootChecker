@@ -9,7 +9,7 @@
  * http://distriqt.com
  *
  * @brief
- * @author 		"Michael Archbold (ma&#64;distriqt.com)"
+ * @author Michael Archbold (https://github.com/marchbold)
  * @created 16/11/2017
  * @copyright http://distriqt.com/copyright/license.txt
  */
@@ -53,7 +53,6 @@ public class RootCheckerController extends ActivityStateListener
 	}
 
 
-
 	// Reference: https://medium.com/@scottyab/detecting-root-on-android-97803474f694
 	// Source: https://github.com/scottyab/rootbeer
 	public boolean isRooted()
@@ -69,7 +68,6 @@ public class RootCheckerController extends ActivityStateListener
 		}
 		return false;
 	}
-
 
 
 }
